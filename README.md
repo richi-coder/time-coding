@@ -19,7 +19,7 @@ ___
 ___
 
 ## You can visit my portfolio
-https://richiprogrammer.github.io/richi-portfolio/
-> It's under construction yet!
+[Richi's Portfolio](https://richiprogrammer.github.io/richi-portfolio/)"Richi's Portfooolio"
+*It's under construction yet!*
 
 Thank you for visiting my repo.
