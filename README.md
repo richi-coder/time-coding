@@ -10,8 +10,16 @@
 
 ___
 
+## App Construction:
+
+- I used CSS, HTML and Vanilla JavaScript to create this App.
+- JavaScript related: new Date() object, setInterval(), clearInterval(), onclick event.
+- CountAPI: it offers a counter for every thing you want. For example, you can track clicks on a button.
+- I used XMLHttpRequest to consume the API.
+___
+
 ## You can visit my portfolio
 https://richiprogrammer.github.io/richi-portfolio/
-> It's under construction yey!
+> It's under construction yet!
 
 Thank you for visiting my repo.
