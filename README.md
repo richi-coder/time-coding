@@ -8,6 +8,8 @@
 - If you want to check another time click "Reset" and follow the last step again.
 - You can see how many times this page has been visited and the button "Calculate" clicked.
 
+___
+
 ## You can visit my portfolio
 https://richiprogrammer.github.io/richi-portfolio/
 > It's under construction yey!
