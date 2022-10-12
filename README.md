@@ -19,7 +19,7 @@ ___
 ___
 
 ## You can visit my portfolio
-[Richi's Portfolio](https://richiprogrammer.github.io/richi-portfolio/"Richi's Portfooolio")
+[Richi's Portfolio](https://richiprogrammer.github.io/richi-portfolio/ "Richi Portfooolio")
 *It's under construction yet!*
 
 Thank you for visiting my repo.
