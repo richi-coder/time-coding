@@ -1,0 +1,228 @@
+* {
+    box-sizing: border-box;
+}
+
+:root {
+    --black: black;
+    --white: white;
+}
+
+.light {
+    color: black;
+    background-color: var(--white);
+}
+
+.dark {
+    color: white;
+    background-color: var(--black);
+}
+
+html {
+    overflow-x: clip;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    overflow-x: clip;
+    transition: all 0.7s;
+}
+
+header {
+    background-color: cyan;
+    width: 100%;
+    height: 5vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+button {
+    width: 20px;
+    aspect-ratio: 2 / 1;
+}
+
+
+.main {  
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    column-gap: 50px;
+    row-gap: 20px;
+    padding-top: 10px;
+}
+
+
+.logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: #be3144;
+    border-radius: 15px;
+    box-shadow: 5px 5px 15px gray;
+    padding: 15px 25px;
+    width: 15em;
+    height: 7em;
+}
+
+.logo h2 {
+    font-family: Goldman;
+    font-weight: lighter;
+    margin: 0;
+    padding: 0;
+    font-size: 8vh;
+    text-shadow: 2px 2px 5px rgba(255, 255, 255, 55%), 0 18px 106px rgba(255, 255, 255, 54%);
+    color: white;
+}
+
+.logo p {
+    font-family: Poppins;
+    font-size: 1.3em;
+    font-style: italic;
+    margin: 0;
+    margin-top: -20px;
+    padding: 0;
+    color: black;
+    transform: scaleX(2);
+}
+
+.text {
+    font-family: Poppins;
+    font-size: 2vw;
+    height: fit-content;
+    width: 50%;
+}
+
+#slogan {
+    font-style: italic;
+    font-size: 2em;
+}
+
+#legend {
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+    height: fit-content;
+    font-family: Poppins;
+    font-weight: bold;
+}
+
+.container {
+    box-shadow: 5px 5px 15px gray;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50% 50%;
+    grid-column-gap: 10px;
+    text-align: center;
+    font-size: 8vw;
+    padding: 0 2vh;
+    font-family: Poppins;
+    color: white;
+    background: linear-gradient(180deg, rgb(17, 77, 72) 0%, black 40%, aqua 45%, aqua 100%); 
+    height: 20vh;
+}
+
+#another {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+#user-container {
+    opacity: 0;
+    height: 0;
+    transition: all 0.7s;
+}
+
+.user {
+    width: 100px;
+}
+
+#yes {
+    font-family: Poppins;
+}
+
+/* BUTTON TO MY PORTFOLIO -- Remember to add css links */
+
+
+#click-portfolio {
+    color: white;
+    text-decoration: none;
+    background-color: #be3144;
+    border-radius: 5px;
+    height: 1.6em;
+    width: 100px;
+    margin: auto 0;
+    font-family: Goldman;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2em;
+    position: fixed;
+    bottom: 50px;
+    right: -10px;
+    animation-name: portfolio-shining;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  #click-portfolio > span {
+    margin: -7px;
+    font-family: Poppins;
+    font-size: .6rem;
+    color: rgb(27, 27, 27);
+  }
+  #click-portfolio:link {
+    color: white;
+  }
+  
+  #click-portfolio:hover {
+    background-color: white;
+    color: black;
+  }
+  #click-portfolio:active {
+    color: #e46475;
+  }
+  @keyframes portfolio-shining {
+   0% {background-color: #be3144; color: white;}
+   45% {background-color: #be3144; color: white;}
+   50% {background-color: #ca7681; color: white;}
+   55% {background-color: #ca7681; color: white;}
+   60% {background-color: #be3144; color: white;}
+   100% {background-color: #be3144; color: white;}
+  }
+
+
+@media only screen and (min-aspect-ratio: 1/1) {
+    main {
+        padding-top: 20px;
+        align-items:unset;
+    }
+    .container {
+        font-size: 5vh;
+        height: 30vh;
+        padding: 0 30px;
+    }
+    .text {
+        font-size: 1.5vw;
+    }
+    .logo {
+        width: 12em;
+        height: 7em;
+    }
+}
