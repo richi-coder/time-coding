@@ -10,6 +10,14 @@
 
 ___
 
+## How to use it:
+
+1. Simply enter a date from which you would like to count the time that has passed.
+2. Click on "Calculate" button.
+3. See your current elapsed time (it changes every second).
+4. If you wish to check another time, click on the "Reset" button and go to the first step again.
+___
+
 ## App Construction:
 
 - I used CSS, HTML and Vanilla JavaScript to create this App.
