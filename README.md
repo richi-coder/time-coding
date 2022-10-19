@@ -1,5 +1,8 @@
 # time-coding
 
+WAKATIME DATA:
+[![wakatime](https://wakatime.com/badge/github/richiProgrammer/time-coding.svg)](https://wakatime.com/badge/github/richiProgrammer/time-coding)
+
 ## App Details:
 
 - This app shows my time coding.
